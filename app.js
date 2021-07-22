@@ -5,7 +5,7 @@
 var wavesurfer; // eslint-disable-line no-var
 
 /**
- * Init & load.
+ * Init & load git.
  */
 document.addEventListener('DOMContentLoaded', function() {
     console.log("came here")
