@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
     //http://192.168.88.244/AudioFileUpload/KSMMGC-COURT4_HON.J.WAMBILYANGA_20210121_split.mp3
     //https://ia800801.us.archive.org/0/items/mshortworks_001_1202_librivox/msw001_03_rashomon_akutagawa_mt_64kb.mp3
   //wavesurfer.load('http://ia902606.us.archive.org/35/items/shortpoetry_047_librivox/song_cjrg_teasdale_64kb.mp3');
-    wavesurfer.load('https://ia800801.us.archive.org/0/items/mshortworks_001_1202_librivox/msw001_03_rashomon_akutagawa_mt_64kb.mp3');
+    wavesurfer.load('https://ia902606.us.archive.org/35/items/shortpoetry_047_librivox/song_cjrg_teasdale_64kb.mp3');
  //wavesurfer.load('Tula.mp3');
    
     //var audiopath='audio/Tula.mp3';
