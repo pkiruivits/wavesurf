@@ -1,6 +1,6 @@
 'use strict';
 /**
- * Create a WaveSurfer instance.
+ * Create a WaveSurfer instance.  
  */
 var wavesurfer; // eslint-disable-line no-var
 
