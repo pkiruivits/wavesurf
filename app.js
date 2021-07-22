@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
     //https://ia800801.us.archive.org/0/items/mshortworks_001_1202_librivox/msw001_03_rashomon_akutagawa_mt_64kb.mp3
   //wavesurfer.load('http://ia902606.us.archive.org/35/items/shortpoetry_047_librivox/song_cjrg_teasdale_64kb.mp3');
     wavesurfer.load('https://ia902606.us.archive.org/35/items/shortpoetry_047_librivox/song_cjrg_teasdale_64kb.mp3');
- //wavesurfer.load('Tula.mp3');
+   //wavesurfer.load('Tula.mp3');
    
     //var audiopath='audio/Tula.mp3';
     //wavesurfer.load(audiopath);
