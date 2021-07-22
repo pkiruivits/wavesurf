@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
         .on('success', function(data) {
             wavesurfer.load(
                 //http://www.archive.org/download/mshortworks_001_1202_librivox/msw001_03_rashomon_akutagawa_mt_64kb.mp3
-                'http://ia902606.us.archive.org/35/items/shortpoetry_047_librivox/song_cjrg_teasdale_64kb.mp3',
+                'https://ia902606.us.archive.org/35/items/shortpoetry_047_librivox/song_cjrg_teasdale_64kb.mp3',
                 data
             );
         });
