@@ -60,6 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 
         if (localStorage.regions) {
+            console.log("regions exists");
             //findRegions();
             //const me = Object.create(reg);  //manually generating regions
             //me.start=30;
@@ -85,6 +86,7 @@ document.addEventListener('DOMContentLoaded', function() {
             //wavesurfer.addRegion(me);
             //wavesurfer.saveRegions();
         } else {
+            console.log("regions to be generaed")
             var peaks = wavesurfer.backend.getPeaks(512);
             var duration = wavesurfer.getDuration();
             var wsRegions = extractRegions(peaks,duration);
