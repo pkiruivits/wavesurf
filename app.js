@@ -127,12 +127,12 @@ document.addEventListener('DOMContentLoaded', function() {
     wavesurfer.on('play', function() {
         playButton.style.display = 'none';
         pauseButton.style.display = '';
-      // wavesurfer.play();
+       wavesurfer.play();
     });
     wavesurfer.on('pause', function() {
         playButton.style.display = '';
         pauseButton.style.display = 'none';
-       // wavesurfer.pause();
+       wavesurfer.pause();
     });
 
 
