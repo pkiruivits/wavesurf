@@ -93,6 +93,7 @@ document.addEventListener('DOMContentLoaded', function() {
             console.log("oops",wavesurfer.backend.getPeaks(512));
             loadRegions(wsRegions);
             saveRegions();
+            dispNotes();
             console.log("extracted regions");
             console.log("no",wavesurfer.getDuration());
             console.log("peaks",wavesurfer.backend.getPeaks(40));
