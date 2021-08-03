@@ -130,7 +130,8 @@ document.addEventListener('DOMContentLoaded', function() {
     wavesurfer.on('play', function() {
         playButton.style.display = 'none';
         pauseButton.style.display = '';
-       wavesurfer.play();
+        wavesurfer.backend.ac.resume()
+       //wavesurfer.play();
     });
     wavesurfer.on('pause', function() {
         playButton.style.display = '';
