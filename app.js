@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 
         if (localStorage.regions) {
-            console.log("regions exists");
+            console.log("regions exists, live update");
             //findRegions();
             //const me = Object.create(reg);  //manually generating regions
             //me.start=30;
